@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .line-gradiant-y {
+    @apply absolute w-px h-full inset-0 bg-gradient-to-b from-third/60;
+  }
+  .line-gradiant-x {
+    @apply absolute h-px w-full bottom-0 left-0 bg-gradient-to-r from-transparent via-third/60;
+  }
+  .works-layer {
+    @apply transition-all duration-500 opacity-0 absolute w-full h-full inset-0 bg-gradient-to-br from-primary/40 z-10 flex justify-center items-center;
+  }
+}
