@@ -29,7 +29,7 @@
       VeiwsSwitcher,
     },
     mounted() {
-      document.title = "Seif Nageh update";
+      document.title = "Seif Nageh";
       const link = document.querySelector("[rel='icon']");
       link.setAttribute("href", "icon.png");
     },
