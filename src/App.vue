@@ -19,9 +19,6 @@
   import ProfileCard from "./views/ProfileCard.vue";
   import VeiwsSwitcher from "./views/VeiwsSwitcher.vue";
   export default {
-    data: () => {
-      return {};
-    },
     components: {
       NavBar,
       BackAnimations,
