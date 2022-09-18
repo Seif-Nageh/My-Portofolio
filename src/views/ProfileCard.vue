@@ -1,5 +1,6 @@
 <template>
   <div
+    id="profile-card"
     name="profile-card"
     class="relative z-20 shadow-xl shadow-black/50 rounded-lg md:max-w-screen-sm md:w-full before:absolute md:before:w-full before:h-full before:-z-10 before:-left-4 before:-top-4 before:rounded-lg md:before:bg-gradient-to-b md:before:from-second/40"
   >
@@ -55,10 +56,6 @@
           {
             link: "mailto:seifldin.attallah@gmail.com?Subject=subject message",
             icon: "fa-solid fa-envelope",
-          },
-          {
-            link: "https://www.facebook.com/seif.nageh",
-            icon: "fa-brands fa-facebook-f",
           },
           {
             link: "https://api.whatsapp.com/send?phone=201151251902",

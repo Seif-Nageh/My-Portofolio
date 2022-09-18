@@ -40,18 +40,17 @@
     </div>
     <SectionsTitle :name="'Clients'" class="pt-12" />
     <div class="flex flex-wrap">
-      <a
+      <span
         class="w-1/2 p-6 relative grayscale transition-all duration-500 hover:grayscale-0 md:w-1/4 before:line-gradiant-y after:line-gradiant-x"
         v-for="client in clients"
         :key="client.link"
-        :href="client.link"
       >
         <img
           :src="'img/clientLogos/' + client.img"
           :alt="client.alt"
           class="m-auto w-5/6 h-full"
         />
-      </a>
+      </span>
     </div>
   </div>
 </template>
@@ -64,12 +63,12 @@
       return {
         aboutInfo: [
           {
-            name: "Age",
-            info: 26,
+            name: "Phone",
+            info: "+201151251902",
           },
           {
-            name: "Residence",
-            info: "Egypt",
+            name: "Email",
+            info: "Seifldin.attallah@gmail.com",
           },
           {
             name: "Freelance",
@@ -77,7 +76,7 @@
           },
           {
             name: "Address",
-            info: "Abbasiyah, Cairo, Egypt",
+            info: "Cairo, Egypt",
           },
         ],
         myServices: [
@@ -102,22 +101,18 @@
         ],
         clients: [
           {
-            link: "https://shukranyasta.com",
             img: "shukran-yasta.png",
             alt: "Shukran Yasta",
           },
           {
-            link: "#",
             img: "viganella.png",
             alt: "Viganella",
           },
           {
-            link: "#",
             img: "cav.svg",
             alt: "CAV",
           },
           {
-            link: "#",
             img: "bond.png",
             alt: "BOND",
           },

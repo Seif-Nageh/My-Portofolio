@@ -9,7 +9,12 @@
       <ul
         class="divide-x md:divide-x-0 md:divide-y-2 divide-gray-400/50 flex md:flex-col align-middle justify-evenly md:justify-center border-t md:border-t-0 border-gray-400/50"
       >
-        <li v-for="nav in navs" :key="nav.name" class="px-3 py-2 w-full">
+        <li
+          v-for="nav in navs"
+          :key="nav.name"
+          @click="scrollView(nav.name)"
+          class="px-3 py-2 w-full"
+        >
           <router-link
             class="flex flex-col gap-0.5 transition-all duration-300 hover:text-primary/70 focus:outline-none"
             :to="nav.to"
@@ -44,7 +49,7 @@
             to: "/resume",
           },
           {
-            name: "Works",
+            name: "Work",
             icon: "fa-paintbrush",
             to: "/works",
           },
@@ -55,6 +60,16 @@
           },
         ],
       };
+    },
+    methods: {
+      scrollView(title) {
+        const card = document.getElementById("profile-card").offsetHeight;
+        document.title = "Seif Nageh " + title;
+        window.scroll({
+          top: card,
+          behavior: "smooth",
+        });
+      },
     },
     components: { TitleTyping },
   };

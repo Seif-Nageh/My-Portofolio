@@ -20,7 +20,6 @@ import {
   faFlag,
 } from "@fortawesome/free-solid-svg-icons";
 import {
-  faFacebookF,
   faGithub,
   faLinkedinIn,
   faWhatsapp,
@@ -30,7 +29,6 @@ library.add(
   faBarsStaggered,
   faPaintbrush,
   faAt,
-  faFacebookF,
   faGithub,
   faLinkedinIn,
   faEnvelope,

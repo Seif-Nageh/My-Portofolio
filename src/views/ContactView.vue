@@ -21,25 +21,19 @@
         <input
           type="name"
           placeholder="Full Name"
-          class="bg-second/80 border border-third w-full h-14 p-3 rounded-lg focus-visible:outline-none peer invalid:border-red-400"
+          class="bg-second/80 border border-third w-full h-14 p-3 rounded-lg focus-visible:outline-none"
           required
           v-model="name"
         />
-        <p class="invisible p-3 pb-0 text-red-400 peer-invalid:visible">
-          Enter Your Name
-        </p>
       </div>
       <div class="md:w-1/2 w-full p-4">
         <input
           type="email"
           placeholder="Email"
-          class="bg-second/80 border border-third w-full h-14 p-3 rounded-lg focus-visible:outline-none peer invalid:border-red-400"
+          class="bg-second/80 border border-third w-full h-14 p-3 rounded-lg focus-visible:outline-none"
           required
           v-model="email"
         />
-        <p class="invisible p-3 pb-0 text-red-400 peer-invalid:visible">
-          Enter Valid E-mail
-        </p>
       </div>
       <div class="w-full p-4">
         <textarea
@@ -72,7 +66,11 @@
         infos: [
           {
             name: "Address",
-            data: "Abbasiyah, Cairo, Egypt",
+            data: "Cairo, Egypt",
+          },
+          {
+            name: "Freelance",
+            data: "Available",
           },
           {
             name: "Email",
@@ -81,10 +79,6 @@
           {
             name: "Phone",
             data: "+201151251902",
-          },
-          {
-            name: "Freelance",
-            data: "Available",
           },
         ],
       };

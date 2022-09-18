@@ -4,10 +4,11 @@
   <div
     class="mx-auto relative text-gray-100 md:py-6 md:px-5 md:max-w-2xl md:items-center md:grid md:grid-cols-6 lg:grid-cols-12 lg:max-w-7xl lg:h-screen lg:overflow-hidden"
   >
-    <NavBar class="" />
+    <NavBar />
     <ProfileCard class="md:col-span-5 lg:col-span-4" />
     <VeiwsSwitcher
       class="md:px-0 md:row-span-auto md:col-span-5 md:col-start-2 lg:col-span-7"
+      id="viewer"
     />
   </div>
 </template>
@@ -26,6 +27,11 @@
       BackAnimations,
       ProfileCard,
       VeiwsSwitcher,
+    },
+    mounted() {
+      document.title = "Seif Nageh";
+      const link = document.querySelector("[rel='icon']");
+      link.setAttribute("href", "icon.png");
     },
   };
 </script>
