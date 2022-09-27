@@ -105,7 +105,7 @@
               "Assessed UX and UI designs for technical feasibility.",
               "Collaborated with product team members to implement new feature developments.",
             ],
-            time: "06/22 - 08/22",
+            time: "04/21 - 05/22",
           },
         ],
         languages: [
