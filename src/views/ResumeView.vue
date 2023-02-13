@@ -171,6 +171,7 @@
               "Git(GitHub)",
               "Responsive Design & Mobile-First Websites",
               "Object-Oriented Programming",
+              "MVC Design Pattern",
               "Search Engine Optimization (SEO)",
               "Problem Solving Skills",
               "Agile Methodology & SCRUM",
@@ -188,7 +189,7 @@
           },
           {
             title: "Frameworks",
-            infos: ["TailWind.css", "PugJs", "Next.js", "VueJS", "Nuxt.js"],
+            infos: ["Laravel", "TailWind.css", "PugJs", "Next.js", "VueJS", "Nuxt.js"],
           },
         ],
       };
