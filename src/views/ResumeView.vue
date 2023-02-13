@@ -79,6 +79,17 @@
       return {
         experinces: [
           {
+            title: "Project Manager",
+            name: "GTW Group",
+            description: [
+              "Understand all project concepts and requirements.",
+              "Hire and manage employees to develop Transit System.",
+              "Transit System a Flights & Hotels ticket engine manages b2c and b2b reservations.",
+            ],
+            time: "11/22 - present",
+            stillIn: true,
+          },
+          {
             name: "Freelance Projects",
             description: [
               "Collaborate with creative and development teams on the execution of ideas.",
@@ -94,7 +105,7 @@
               "Make Shukran-yasta web application design and functionality.",
               "Make dashboard and CRM software system to manage there employees.",
             ],
-            time: "06/22 - 08/22",
+            time: "06/22 - 09/22",
           },
           {
             title: "Front-End Developer",
@@ -189,7 +200,14 @@
           },
           {
             title: "Frameworks",
-            infos: ["Laravel", "TailWind.css", "PugJs", "Next.js", "VueJS", "Nuxt.js"],
+            infos: [
+              "Laravel",
+              "TailWind.css",
+              "PugJs",
+              "Next.js",
+              "VueJS",
+              "Nuxt.js",
+            ],
           },
         ],
       };

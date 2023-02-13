@@ -3,11 +3,11 @@
     <SectionsTitle :name="'About Me'" />
     <div name="AboutView" class="flex flex-wrap">
       <div class="w-full md:w-1/2 p-6">
-        I’m Seif Nageh, front-end developer from Egypt, Cairo. with a particular
+        I’m Seif Nageh, Full Stack developer from Egypt, Cairo. with a particular
         interest in making things simple and automating daily tasks. I have rich
-        experience in web site design and building and customization. I try to
-        keep up with security and best practices, and am always looking for new
-        things to learn. I love to talk with you about our unique.
+        experience in websites design, building and customization. I try to
+        keep up with security and best practices, and I'am always looking for new
+        things to learn. I love to talk with you about our unique opportunity to work on your next great project.
       </div>
       <div
         class="w-full md:w-1/2 p-6 relative before:line-gradiant-y flex flex-col"
