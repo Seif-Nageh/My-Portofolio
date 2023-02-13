@@ -6,9 +6,9 @@
     :intervals="25"
     class="text-primary text-base"
     :array="[
+      'Full Stack Developer',
       'Front-End Developer',
       'Back-End Developer',
-      'Full Stack Developer',
       'Flutter Developer',
       'Freelancer',
     ]"
