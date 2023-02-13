@@ -7,9 +7,9 @@
     class="text-primary text-base"
     :array="[
       'Front-End Developer',
+      'Back-End Developer',
+      'Full Stack Developer',
       'Flutter Developer',
-      'Web Developer',
-      'Best Choise',
       'Freelancer',
     ]"
   />
